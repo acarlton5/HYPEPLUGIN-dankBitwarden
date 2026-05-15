@@ -19,4 +19,4 @@ Launcher plugin for DankMaterialShell to search through bitwarden entries with r
 7. If password list is ever outdated, select the `Sync` button after typing the trigger in the launcher. This will run `rbw sync` for you then update the password list. Depending on the size of the bitwarden vault, this can take around 10s.
 
 ## Security
-It's highly recommended to go over the code before using this plugin since it is handling sensitive data. The plugin never loads any password into its memory. Passwords are directly piped to either `wtype` or `dms cl copy`.
+It's highly recommended to go over the code before using this plugin since it is handling sensitive data. The plugin never loads any password into its memory. Passwords are directly piped to either `wtype` or `hype cl copy`.
